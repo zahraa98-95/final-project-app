@@ -1,5 +1,5 @@
 pipeline {
- agent { label 'slave' }
+ agent { label 'jenk-deploy' }
  stages {
  stage('build') {
  steps {
