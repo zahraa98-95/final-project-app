@@ -12,12 +12,12 @@ pipeline {
  }
  }
  }
- stage('deploy') {
- steps {
- sh """
- kubectl apply -f k8s -n dev
- """
- }
- }
- }
+         stage('deploy') {
+            steps {
+                    sh    """
+                        kubectl apply -f k8s -n dev
+                    """
+            }
+        }
+    }
 }
