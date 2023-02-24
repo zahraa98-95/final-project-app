@@ -16,7 +16,7 @@ spec:
  spec:
  containers:
  - name: hello-world
- image: big-unison-377212/hello-world
+ image: alzahraa14/hello-world
  imagePullPolicy: Always
  ports:
  - containerPort: 80
